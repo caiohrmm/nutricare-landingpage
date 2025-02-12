@@ -243,7 +243,7 @@ function FeatureCard({
   description: string;
 }) {
   return (
-    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center">
       <div className="mb-4">{icon}</div>
       <h3 className="text-xl font-semibold text-gray-900 mb-2">{title}</h3>
       <p className="text-gray-700">{description}</p>
