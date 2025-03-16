@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Nutricionista -->
+        <g transform="translate(100, 50)">
+            <!-- Cabeça -->
+            <circle cx="200" cy="150" r="60" fill="#FFD3B6"/>
+            
+            <!-- Cabelo -->
+            <path d="M150,140 Q200,80 250,140 Q250,180 200,200 Q150,180 150,140" fill="#4B3F3F"/>
+            
+            <!-- Rosto -->
+            <circle cx="180" cy="140" r="5" fill="#4B3F3F"/> <!-- Olho esquerdo -->
+            <circle cx="220" cy="140" r="5" fill="#4B3F3F"/> <!-- Olho direito -->
+            <path d="M190,160 Q200,170 210,160" stroke="#4B3F3F" stroke-width="3" fill="none"/> <!-- Sorriso -->
+            
+            <!-- Corpo -->
+            <path d="M200,210 L200,450 M150,270 L250,270" stroke="#22C55E" stroke-width="30"/> <!-- Jaleco -->
+            
+            <!-- Braços -->
+            <path d="M150,270 Q120,320 100,370" stroke="#FFD3B6" stroke-width="20"/> <!-- Braço esquerdo -->
+            <path d="M250,270 Q280,320 300,370" stroke="#FFD3B6" stroke-width="20"/> <!-- Braço direito -->
+            
+            <!-- Mãos -->
+            <circle cx="100" cy="370" r="15" fill="#FFD3B6"/>
+            <circle cx="300" cy="370" r="15" fill="#FFD3B6"/>
+            
+            <!-- Prancheta -->
+            <rect x="80" y="330" width="80" height="100" fill="#F3F4F6" rx="5"/>
+            <line x1="95" y1="350" x2="145" y2="350" stroke="#4B5563" stroke-width="2"/>
+            <line x1="95" y1="370" x2="145" y2="370" stroke="#4B5563" stroke-width="2"/>
+            <line x1="95" y1="390" x2="145" y2="390" stroke="#4B5563" stroke-width="2"/>
+            
+            <!-- Maçã -->
+            <circle cx="300" cy="350" r="20" fill="#EF4444"/>
+            <path d="M300,330 Q310,320 320,330" stroke="#22C55E" stroke-width="2" fill="none"/>
+        </g>
+    </g>
+</svg> 
